@@ -1,0 +1,326 @@
+# Translation of Plugins - Best Quiz Plugin for WordPress: WP Quiz - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Best Quiz Plugin for WordPress: WP Quiz - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-06-27 19:24:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Best Quiz Plugin for WordPress: WP Quiz - Stable (latest release)\n"
+
+#: includes/Admin/views/admin-pages/defaults.php:109
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:96
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:129
+msgid "Auto scroll to next question"
+msgstr "Автоскролл к следующему вопросу"
+
+#: includes/Admin/MetaBoxes/QuizMetaBox.php:213
+msgid "Content"
+msgstr "Содержание"
+
+#: includes/Admin/MetaBoxes/QuizMetaBox.php:219
+msgid "Styling"
+msgstr "Стили"
+
+#: includes/Admin/AdminPages/Settings.php:43
+#: includes/Admin/MetaBoxes/QuizMetaBox.php:225
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/QuizTypes/Trivia.php:168
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: includes/Assets.php:55
+msgid "I got %%score%% out of %%total%%, and you?"
+msgstr "Я получил %%score%% из %%total%%, а ты?"
+
+#: includes/Assets.php:54
+msgid "You got %%score%% out of %%total%%"
+msgstr "Ты получил  %%score%% из %%total%%"
+
+#. Author URI of the plugin
+msgid "https://mythemeshop.com/"
+msgstr "https://mythemeshop.com/"
+
+#. Author of the plugin
+msgid "MyThemeShop"
+msgstr "MyThemeShop"
+
+#: includes/PostTypeQuiz.php:178
+msgid "Date"
+msgstr "Дата"
+
+#: includes/GDPR.php:166 includes/PostTypeQuiz.php:177
+msgid "Quiz type"
+msgstr "Тип викторины"
+
+#: includes/QuizTypes/Trivia.php:213 includes/Traits/QuizTypeBackend.php:140
+msgid "Answers"
+msgstr "Ответы"
+
+#: templates/quiz-types/flip/questions/front.php:48
+msgid "Click to Flip"
+msgstr "Нажмите, чтобы перевернуть"
+
+#: includes/Admin/views/admin-pages/defaults.php:65
+#: includes/Admin/views/quiz-types/flip/tab-settings.php:43
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:63
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:63
+msgid "Share buttons"
+msgstr "Кнопки \"Поделиться\""
+
+#: includes/Admin/AdminPages/ImportExport.php:92
+#: includes/Admin/AdminPages/ImportExport.php:314
+msgid "Export"
+msgstr "Экспорт"
+
+#: includes/Admin/AdminPages/ImportExport.php:94
+#: includes/Admin/AdminPages/ImportExport.php:313
+#: includes/Admin/views/admin-pages/import-export/import.php:26
+msgid "Import"
+msgstr "Импорт"
+
+#: includes/Admin/AdminPages/ImportExport.php:64
+msgid "Import/Export"
+msgstr "Импорт/Экспорт"
+
+#: includes/Traits/QuizTypeBackend.php:155
+msgid "Results"
+msgstr "Результаты"
+
+#: includes/QuizTypes/Flip.php:80
+msgid "Questions"
+msgstr "Вопросы"
+
+#: includes/Admin/AdminPages/ImportExport.php:203
+msgid "Trivia"
+msgstr "Правильно/Неправильно"
+
+#: includes/Admin/EditorButtons.php:83
+msgid "Cancel"
+msgstr "Отмена"
+
+#: includes/Admin/views/quiz-types/flip/tab-styling.php:12
+#: includes/Admin/views/quiz-types/personality/tab-styling.php:14
+#: includes/Admin/views/quiz-types/trivia/tab-styling.php:14
+msgid "Choose skin"
+msgstr "Выбрать оформление"
+
+#: includes/Admin/views/quiz-types/personality/tab-styling.php:30
+#: includes/Admin/views/quiz-types/trivia/tab-styling.php:30
+msgid "Show all"
+msgstr "Отобразить все"
+
+#: includes/PostTypeQuiz.php:175
+msgid "Quiz Name"
+msgstr "Название викторины"
+
+#: includes/PostTypeQuiz.php:82
+msgid "Edit Quiz"
+msgstr "Изменить викторину"
+
+#: includes/PostTypeQuiz.php:84
+msgid "View Quiz"
+msgstr "Просмотр викторины"
+
+#: includes/PostTypeQuiz.php:83
+msgid "New Quiz"
+msgstr "Новая викторина"
+
+#: includes/PostTypeQuiz.php:85
+msgid "Search Quizzes"
+msgstr "Поиск в викторинах"
+
+#: includes/PostTypeQuiz.php:90
+msgid "All Quizzes"
+msgstr "Все викторины"
+
+#: includes/PostTypeQuiz.php:176
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: includes/Admin/MetaBoxes/QuizShortcodeMetaBox.php:49
+msgid "Shortcode:"
+msgstr "Шорткод:"
+
+#: includes/Admin/views/quiz-types/personality/tab-styling.php:40
+#: includes/Admin/views/quiz-types/trivia/tab-styling.php:52
+msgid "Progress bar color"
+msgstr "Цвет шкалы прогресса"
+
+#: includes/ForceActions/Manager.php:77
+msgid "No Action"
+msgstr "Нет"
+
+#: includes/ForceActions/Manager.php:80
+msgid "Force action to see the results"
+msgstr "Обязательное действие, чтобы увидеть результаты"
+
+#: includes/Admin/views/admin-pages/defaults.php:79
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:77
+msgid "Countdown timer [Seconds/question]"
+msgstr "Обратный отсчет [секунды/вопрос]"
+
+#: includes/Admin/views/admin-pages/defaults.php:159
+msgid "Show Ads"
+msgstr "Показывать рекламу"
+
+#: includes/Admin/views/admin-pages/defaults.php:27
+msgid "Randomize Answers"
+msgstr "Ответы в случайном порядке"
+
+#: includes/Admin/views/admin-pages/defaults.php:17
+msgid "Randomize Questions"
+msgstr "Вопросы в случайном порядке"
+
+#: includes/Admin/views/admin-pages/defaults.php:46
+#: includes/Admin/views/quiz-types/flip/tab-settings.php:24
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:44
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:44
+msgid "Promote the plugin"
+msgstr "Продвигать плагин"
+
+#: includes/Admin/views/admin-pages/defaults.php:37
+msgid "Restart Questions"
+msgstr "Начать заново"
+
+#: includes/Admin/AdminPages/NewQuiz.php:95
+#: includes/Admin/views/admin-pages/defaults.php:17
+#: includes/Admin/views/admin-pages/defaults.php:27
+#: includes/Admin/views/admin-pages/defaults.php:55
+#: includes/Admin/views/admin-pages/defaults.php:79
+#: includes/Admin/views/admin-pages/defaults.php:94
+#: includes/Admin/views/admin-pages/defaults.php:121
+#: includes/Admin/views/admin-pages/defaults.php:137
+#: includes/Admin/views/admin-pages/defaults.php:148
+#: includes/Admin/views/admin-pages/defaults.php:159
+#: includes/Admin/views/admin-pages/general.php:36
+#: includes/Admin/views/admin-pages/general.php:51
+#: includes/Admin/views/admin-pages/general.php:77
+#: includes/Admin/views/admin-pages/general.php:94
+#: includes/Admin/views/admin-pages/general.php:128
+#: includes/Admin/views/admin-pages/general.php:139
+#: includes/Admin/views/admin-pages/general.php:150
+#: includes/Admin/views/admin-pages/general.php:161
+#: includes/Admin/views/admin-pages/google-analytics.php:13
+#: includes/Admin/views/admin-pages/google-analytics.php:24
+#: includes/Admin/views/admin-pages/google-analytics.php:35
+#: includes/Admin/views/admin-pages/quiz-types.php:17
+#: includes/Admin/views/admin-pages/subscription.php:15
+#: includes/Admin/views/quiz-types/flip/tab-settings.php:14
+#: includes/Admin/views/quiz-types/flip/tab-settings.php:33
+#: includes/Admin/views/quiz-types/flip/tab-settings.php:57
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:15
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:25
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:53
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:78
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:125
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:141
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:151
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:15
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:25
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:53
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:77
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:111
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:167
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:183
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:193
+#: includes/ForceActions/Manager.php:80
+msgid "Pro feature"
+msgstr "Pro опция"
+
+#: includes/Admin/views/quiz-types/flip/tab-styling.php:38
+msgid "Custom"
+msgstr "Пользовательский"
+
+#: includes/Admin/views/quiz-types/flip/tab-styling.php:37
+msgid "Full Width (responsive)"
+msgstr "Во всю ширину (адаптивный)"
+
+#: includes/Helper.php:985 includes/Helper.php:990
+msgid "Buy WP Quiz Pro"
+msgstr "Купить WP Quiz Pro"
+
+#: includes/Helper.php:988
+msgid "Like WP Quiz Plugin? You will LOVE WP Quiz Pro!"
+msgstr "Нравится плагин WP Quiz? Вы ПОЛЮБИТЕ WP Quiz Pro!"
+
+#: includes/Helper.php:989
+msgid "New Quiz type Swiper, Show Ads in the quizzes, Countdown Timer, Open graph integration, Player tracking, Force users to Subscribe to see the results and much more."
+msgstr "Новый тип викторин \"Swiper\", Показ рекламы в викторинах, Обратный отсчет, Интеграция Open graph, Отслеживание участника, Требовать пользователей подписаться, чтобы увидеть результаты и многое другое."
+
+#: includes/Admin/views/admin-pages/general.php:111
+msgid "this link"
+msgstr "этой ссылке"
+
+#: includes/Admin/AdminPages/ImportExport.php:196
+msgid "Personality"
+msgstr "Особенности характера"
+
+#: includes/Admin/views/admin-pages/defaults.php:69
+#: includes/Admin/views/quiz-types/flip/tab-settings.php:48
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:68
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:68
+#: templates/global/sharing.php:37
+msgid "VK"
+msgstr "ВК"
+
+#: includes/Admin/views/admin-pages/general.php:106
+msgid " and get your referral ID (username) if you don't have it already!"
+msgstr " и получите ваш партнерский ID, если его ещё нет!"
+
+#: includes/Admin/views/admin-pages/general.php:110
+msgid "Check your affiliate earning by following "
+msgstr "Проверьте свой партнерский доход "
+
+#: includes/Admin/views/admin-pages/defaults.php:67
+#: includes/Admin/views/quiz-types/flip/tab-settings.php:46
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:66
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:66
+#: templates/global/sharing.php:25
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/Admin/AdminPages/Settings.php:158
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: templates/global/sharing.php:33
+msgid "Google+"
+msgstr "Google+"
+
+#. Plugin URI of the plugin
+msgid "https://mythemeshop.com/plugins/wp-quiz/"
+msgstr "https://mythemeshop.com/plugins/wp-quiz/"
+
+#: includes/Admin/views/admin-pages/general.php:118
+msgid "MyThemeShop username"
+msgstr "Имя пользователя MyThemeShop"
+
+#: includes/Admin/views/admin-pages/defaults.php:55
+#: includes/Admin/views/quiz-types/flip/tab-settings.php:33
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:53
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:53
+msgid "Show embed code toggle"
+msgstr "Показать встроенный код"
+
+#: includes/Admin/views/admin-pages/general.php:105
+msgid "Signup"
+msgstr "Регистрация"
+
+#: includes/Admin/views/admin-pages/defaults.php:68
+#: includes/Admin/views/quiz-types/flip/tab-settings.php:47
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:67
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:67
+#: templates/global/sharing.php:29
+msgid "Twitter"
+msgstr "Twitter"
+
+#. Plugin Name of the plugin
+#: includes/GDPR.php:310 includes/PostTypeQuiz.php:89
+msgid "WP Quiz"
+msgstr "WP Quiz"
