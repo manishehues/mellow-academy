@@ -327,6 +327,8 @@
         padding-top:40px!important;
         padding-bottom:40px!important;
     }
+    .massageQuiz .qsm-page .qsm-question-wrapper {width:100%;}
+
 }
 
 
@@ -509,6 +511,10 @@
     }
 }
 
+@media screen and (max-width:666px){
+    .qsm-before-message.mlw_qmn_message_before p{  font-size: 30px;}
+}
+
 @media screen and (max-width:639px){
     .fusion-body .shortContainer .fusion-row{
         max-width:100%!important;
@@ -654,4 +660,11 @@
         border-radius:4px;
         font-size:22px;
     }
+    .qsm-before-message.mlw_qmn_message_before p {
+     font-size: 25px;
+    }
+    .mlw_qmn_message_before{margin: 0px!important;}
+    .quiz_section.quiz_begin {
+  padding: 16px 20px !important;
+}
 }
