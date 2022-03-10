@@ -27,7 +27,8 @@
 }
 
 @media screen and (max-width:1599px){
-    .fusion-body .shortContainer .fusion-row{
+    .fusion-body .shortContainer .fusion-row,
+    .fusion-body .videoPart.shortContainer.quizz .fusion-row{
         max-width:1200px!important
     }
     .heading .secTitle{
@@ -71,11 +72,16 @@
     .siteHeader .centerArea .fusion-standard-logo{
         min-height:60px;
     }
+    .massageQuiz .qsm-page .qsm-question-wrapper, .fusion-text .qsm-results-page .qmn_question_answer.qsm-add-border-bottom{
+        width:100%;
+    }
+    
 }
 
 
 @media screen and (max-width:1279px){
-    .fusion-body .shortContainer .fusion-row{
+    .fusion-body .shortContainer .fusion-row,
+    .fusion-body .videoPart.shortContainer.quizz .fusion-row{
         max-width:calc(100% - 60px)!important;
     }
 
@@ -444,6 +450,9 @@
     .heroBanner .fusion-layout-column{
         bottom:60px;
     }
+    .fusion-text .quiz_section .mlw_qmn_new_question, .fusion-text .qmn_question_answer .mlw_qmn_question.qsm_remove_bold b{
+        font-size:20px;
+    }
 }
 
 @media screen and (max-width:767px){
@@ -509,10 +518,46 @@
         font-size:14px;
         top:-8px;
     }
+    .fusion-text .quiz_section .mlw_qmn_new_question, 
+    .fusion-text .qmn_question_answer .mlw_qmn_question.qsm_remove_bold b{
+        font-size:20px;
+    }
+    .fusion-text .quiz_section .qmn_mc_answer_wrap input.qmn_quiz_radio, 
+    .fusion-text .quiz_section .qmn_check_answers input[type="checkbox"]{
+        top:3px;
+        width:18px;
+        height:18px;
+    }
+    .fusion-text .quiz_section .qsm_check_answer .qsm-input-label::before,
+    .fusion-text .quiz_section .qsm_check_answer .qsm-input-label::after{
+        width:15px;
+        height:15px;
+        top:4px;
+        font-size:9px;
+    }
+    .fusion-text .quiz_section .qmn_mc_answer_wrap .qsm-input-label, .fusion-text .quiz_section .qmn_check_answers .qsm-input-label{
+        padding-left:20px;
+    }
+
+    .fusion-text .quiz_section .qmn_mc_answer_wrap .qsm-input-label::before,
+    .fusion-text .quiz_section .qmn_mc_answer_wrap .qsm-input-label::after{
+        width:12px;
+        height:12px;
+        border-width:2px;
+        top:4px;
+    }
+    .fusion-text .quiz_section{
+        padding-top:20px!important;
+        padding-bottom:20px!important;
+    }
+    .fusion-text .quiz_section .mlw_qmn_new_question, .fusion-text .qmn_question_answer .mlw_qmn_question.qsm_remove_bold b{
+        font-weight:normal;
+        line-height:1.4em;
+    }
 }
 
 @media screen and (max-width:666px){
-    .qsm-before-message.mlw_qmn_message_before p{  font-size: 30px;}
+
 }
 
 @media screen and (max-width:639px){
@@ -660,11 +705,38 @@
         border-radius:4px;
         font-size:22px;
     }
-    .qsm-before-message.mlw_qmn_message_before p {
-     font-size: 25px;
-    }
     .mlw_qmn_message_before{margin: 0px!important;}
     .quiz_section.quiz_begin {
-  padding: 16px 20px !important;
+        padding: 16px 20px !important;
+    }
+    #hotStoneVideo.quizz{
+        padding-left:0!important;
+        padding-right:0!important;
+    }
+    .fusion-text .quiz_section .mlw_qmn_new_question,
+    .fusion-text .qmn_question_answer .mlw_qmn_question.qsm_remove_bold b,
+    .fusion-text .quiz_section .qsm-input-label{
+        font-size:20px;
+    }
+    
+    .fusion-text .mlw_qmn_question .qsm-text-simple-option, 
+    .fusion-text .mlw_qmn_question .qsm-text-correct-option, 
+    .fusion-text .mlw_qmn_question .qsm-text-wrong-option{
+        font-size:14px!important;
+    }
+    .fusion-text .quiz_section .qmn_mc_answer_wrap, .fusion-text .quiz_section .qsm_check_answer{
+        margin-top:5px;
+        margin-bottom:5px;
+    }
+    .fusion-text .quiz_section .mlw_horizontal_choice label.qsm-input-label{
+        padding:6px 20px;
+        margin:0;
+    }
+    .qsm-before-message.mlw_qmn_message_before p,
+    .fusion-text .qmn_results_page h2{
+        font-size:35px!important
+    }
+.fusion-text input.qsm-btn.qsm-submit-btn.qmn_btn, .fusion-text .qmn_results_page input[type="submit"]{
+    width:100%;
 }
 }
