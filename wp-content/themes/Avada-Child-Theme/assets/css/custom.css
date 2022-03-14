@@ -840,8 +840,9 @@ font-size: 1.3em;}
 .fusion-text .qmn_results_page h2{
     font-size:45px!important;
 }
-
-
-
-
-
+.page-id-292 #siteHeader , .page-id-292 .fusion-footer {
+  display: none;
+}
+.page-id-301 #siteHeader , .page-id-301 .fusion-footer {
+  display: none;
+}
