@@ -406,8 +406,16 @@ body.logged-in .siteHeader{
     flex-wrap:wrap;
     align-items: unset;
 }
+.aboutSection.chnaged .fusion-row{
+    flex-direction: inherit;
+}
+
 .aboutSection .entryContent{
     padding-right:120px;
+}
+.aboutSection.chnaged .entryContent{
+    padding-right:0px!important;
+    padding-left: 120px;
 }
 .aboutSection .rightSide .fusion-column-wrapper{
     justify-content: center;
@@ -492,10 +500,12 @@ body.logged-in .siteHeader{
 }
 
 .videoPart .btnArea{
-    padding:0 20px!important;    
+    padding:0 20px!important;
+    text-align: center!important;  
 }
 .videoPart .btnArea.leftSide{
-    text-align: right;
+    text-align: center;
+    margin-bottom: 45px !important;
 }
 .videoPart .btnArea .fusion-button{
     width:350px;
