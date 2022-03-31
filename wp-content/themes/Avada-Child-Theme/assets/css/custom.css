@@ -862,23 +862,21 @@ font-size: 1.3em;}
 
 /*=====================*/
 .arm_form_101 .arm_form_field_submit_button.md-button, .arm_form_101 .arm_form_field_submit_button, .arm_form_102 .arm_form_field_submit_button.md-button, .arm_form_102 .arm_form_field_submit_button {
-  min-height: 45px;
-  width: auto!important;
-  margin: 10px 0px 0px 0px!important;
-  font-style: normal!important;
-  text-decoration: none!important;
-  text-transform: none!important;
-  padding: 15px 65px !important;
-  padding-bottom: 15px!important;
-  font-family: var(--chel)!important;
-  color: var(--dark-grey)!important;
-  font-size: 22px!important;
-  display: inline-block!important;
-  line-height: normal!important;
-  font-weight: normal!important;
-  padding-bottom: 17px !important;
-  border-radius: 0 !important;
-  border: 2px solid #232223 !important;
+    min-height: 45px;
+    width: auto !important;
+    margin: 0px !important;
+    font-style: normal !important;
+    text-decoration: none !important;
+    text-transform: none !important;
+    padding: 14px 65px !important;
+    font-family: var(--chel) !important;
+    color: var(--dark-grey) !important;
+    font-size: 22px !important;
+    display: inline-block !important;
+    line-height: normal !important;
+    font-weight: normal !important;
+    border-radius: 0 !important;
+    border: 2px solid #232223 !important;
 }
 .arm_form_wrapper_container .md-button:not(.arm_form_wrapper_container.arm_close_account_btn.md-button):hover, .arm_form_wrapper_container .md-button:not([disabled]):hover{
     background:#232223!important;
@@ -889,9 +887,14 @@ font-size: 1.3em;}
 .arm_form_layout_writer .arm_error_msg_box .arm_error_msg{font-family: var(--body_typography-font-family)!important; padding: 10px!important;}
 .arm_form_input_wrapper .md-input-container .md-input.ng-invalid.ng-dirty, .arm_form_input_wrapper md-input-container.md-input-focused .md-input{font-family: var(--body_typography-font-family)!important;}
 .arm_form_heading_container{display: none!important;}
-.arm_form_102 .arm_forgotpassword_link a{color: #232223!important;}
+
 .contFomArea.formUs {
   padding-top: 60px !important;
   padding-bottom: 0px !important;
+}
+.contFomArea .arm_form_102 .arm_forgotpassword_link a{color: #232223!important;}
+.contFomArea .arm_form_102 .arm_registration_link a{color: #232223!important; text-transform: lowercase;}
+.arm_form_102.arm_form_layout_iconic:not(.arm_standard_validation_type) .arm_error_msg_box .arm_error_msg, .arm_form_102.arm_form_layout_rounded:not(.arm_standard_validation_type) .arm_error_msg_box .arm_error_msg, .arm_form_102:not(.arm_standard_validation_type) .arm_error_msg_box .arm_error_msg{
+    font-size: 13px!important;
 }
 /*=====================*/
