@@ -898,3 +898,13 @@ font-size: 1.3em;}
     font-size: 13px!important;
 }
 /*=====================*/
+
+body.page-template-account-template #main > .fusion-row {
+    max-width: 100%!important;
+}
+body.page-template-account-template #main {
+    padding: 0;
+}
+table.widefat.table.myquize th {
+    text-align: left;
+}

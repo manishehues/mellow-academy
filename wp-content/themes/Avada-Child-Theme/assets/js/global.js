@@ -26,6 +26,17 @@
         // });
 
 
+
+        jQuery(".question-section-id-37 .qmn_fill_blank.mlwRequiredText").val(is_user_logged_in.first_name);
+        jQuery(".question-section-id-38 .qmn_fill_blank.mlwRequiredText").val(is_user_logged_in.last_name);
+        jQuery(".question-section-id-39 .qmn_fill_blank.mlwRequiredText").val(is_user_logged_in.user_email);
+
+
+        jQuery(".question-section-id-40 .qmn_fill_blank.mlwRequiredText").val(is_user_logged_in.first_name);
+        jQuery(".question-section-id-41 .qmn_fill_blank.mlwRequiredText").val(is_user_logged_in.last_name);
+        jQuery(".question-section-id-42 .qmn_fill_blank.mlwRequiredText").val(is_user_logged_in.user_email);
+
+
         jQuery('.fusion-menu ul li.menu-item.fusion-dropdown-menu').each(function(e,value){
             
             if (jQuery(this).hasClass('fusion-dropdown-menu')){

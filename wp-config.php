@@ -94,4 +94,4 @@ require_once(ABSPATH . 'wp-settings.php');
 
 define( 'WP_ALLOW_MULTISITE', true );
 
-define ('FS_METHOD', 'direct');
+//define ('FS_METHOD', 'direct');
