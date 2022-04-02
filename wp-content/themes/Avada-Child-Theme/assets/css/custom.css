@@ -43,7 +43,6 @@
 }
 .btn.btn-primary:hover span{
     color:var(--dark-grey);
-
 }
 
 .btn.btn-primary.white{
@@ -907,4 +906,12 @@ body.page-template-account-template #main {
 }
 table.widefat.table.myquize th {
     text-align: left;
+}
+
+
+.contFomArea form.arm_form input.arm_form_input_box{
+    padding:8px 0!important;
+    font-size:25px;
+    font-weight:900;
+    min-height:40px;
 }
