@@ -915,3 +915,16 @@ table.widefat.table.myquize th {
     font-weight:900;
     min-height:40px;
 }
+
+.logged-in #menu-item-443{display: block!important;}
+#menu-item-443{display: none!important;}
+.righttsec table thead tr th {
+  font-size: 25px;
+  color: #fff;
+  background: #000;
+  border: none;
+}
+.righttsec table tbody tr td{
+     background: #eee;
+     border: none;
+}
